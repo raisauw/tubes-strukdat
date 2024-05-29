@@ -88,7 +88,6 @@ public:
         return NULL;
     }
 
-    // Fungsi untuk mencari buku berdasarkan ISBN
     Node* cariBerdasarkanISBN(string ISBNdicari) {
         Node* temp = head;
         while (temp != NULL) {
