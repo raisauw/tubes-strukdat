@@ -64,6 +64,7 @@ public:
         }
         cout << "Buku tidak ditemukan\n";
     }
+    
     bool update(string judullama,string ISBNlama,string penulislama,string judulbaru,string ISBNbaru,string penulisbaru) {
        Node* current = head;
         while (current != NULL) {
